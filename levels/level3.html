@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Document</title>
+    <!-- internal styling -->
+    <!-- <style>
+    </style> -->
+
+    <!-- external styling -->
+     <!-- <link rel="stylesheet" href="index.css"> -->
+
+     <style>
+        /* *{
+         color: blueviolet;
+        } */
+        h1,h2{ color: pink;}
+
+        #id {color: red;}
+
+        .class1 {color: blue;}
+
+        #first p{ color: rgb(24, 101, 42);}
+
+        #one {background-color: orange;}
+        #two {background-color: green;}
+        button {background-color: blue;}
+
+        .box{ width: 50px; height: 50px;}
+        /* #box1{background-color: red;} */
+        #box1{
+            width: 50px; 
+            height: 50px;
+            background-image: url(images/bmw.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        #box2{background-color: green;}
+        #box3{background-color: blue;}
+
+        /* -------------------- */
+        
+        #boxc{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            text-align: center;
+            text-decoration:underline;
+            text-transform:lowercase;
+        }
+
+        #decor{
+            color: yellowgreen;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+         
+
+        }
+        .lineheight{
+            line-height: 15px;
+            font-size: 15px;
+            font-weight: 700;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- <h1>Heading</h1> -->
+    <!-- inilne styling increases dependibility and ambigugous ness generally avoid it  -->
+    <!-- <p style="color: blue;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tempora et quis ipsa vitae architecto, numquam qui recusandae animi sequi magnam repudiandae pariatur, ipsum alias. Totam maxime eos sunt suscipit.</p> -->
+
+
+    <h1>Heading</h1>
+    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tempora et quis ipsa vitae architecto, numquam qui recusandae animi sequi magnam repudiandae pariatur, ipsum alias. Totam maxime eos sunt suscipit.</p>
+   
+    <div>
+        <h1 id="id">this is a id </h1>
+        <h1 class="class1">this is a class</h1>
+    </div>
+    <h1 >Heading</h1>
+    <h2>Heading</h2>
+
+    <div id="first"> 
+        <p>this is a test line</p>
+    </div>
+    <p>this is outside the div line</p>
+
+     <div id="one"> One</div><br>
+     <div id="two"> Two</div>
+     <button id ="button"> Click me </button>
+     <hr>
+
+     <div id="box1" class="box">Box 1</div> <br>
+     <div id="box2"class="box">Box 2</div> <br>
+     <div id="box3"class="box">Box 3</div>
+     <hr> 
+
+     <div id="boxc"> MY BOX</div><br>
+
+     <a href="#"> google </a> <br>
+     <a href="#" style="text-decoration:none ;"> google </a>
+
+     <hr>
+     <h3 id="decor" class="style_decor">hello this is text decoration style types</h3> <br>
+     <p  class="lineheight">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tempora et quis ipsa vitae architecto, numquam qui recusandae animi sequi magnam repudiandae pariatur, ipsum alias. Totam maxime eos sunt suscipit.</p>
+
+</body>
+</html>
